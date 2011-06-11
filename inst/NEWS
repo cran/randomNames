@@ -1,0 +1,7 @@
+Changes in version: randomNames_0.0-2
+
+  o Refined function to recode supplied gender and ethnicity argument/variables if not in function appropriate form.
+
+Changes in version: randomNames_0.0-1
+
+  o Package Released.
