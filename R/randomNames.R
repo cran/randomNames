@@ -6,13 +6,17 @@ function(
 	which.names="both", 
 	name.order="last.first", 
 	name.sep=", ") {
+
+	.N <- NULL ## To prevent R CMD check warnings
                         
 	first_names <- function(tmp.gender, tmp.ethnicity, tmp.number) {
+		tmp.gender <- tmp.gender[1]; tmp.ethnicity <- tmp.ethnicity[1]
 		tmp <- randomNamesData[[paste("first_names_e", tmp.ethnicity, "_g", tmp.gender, sep="")]]
 		suppressWarnings(sample(rownames(tmp), tmp.number, replace=TRUE, prob=tmp))
 	} 
 
 	last_names <- function(tmp.ethnicity, tmp.number) {
+		tmp.ethnicity <- tmp.ethnicity[1]
 		tmp <- randomNamesData[[paste("last_names_e", tmp.ethnicity, sep="")]]
 		suppressWarnings(sample(rownames(tmp), tmp.number, replace=TRUE, prob=tmp))
 	}
@@ -55,11 +59,11 @@ function(
 	key(tmp.dt) <- c("gender", "ethnicity") 
 
 	if (which.names=="first" | which.names=="both") {
-		tmp.dt$tmp_first <- tmp.dt[,first_names(gender[1], ethnicity[1], length(ethnicity)), by=list(gender, ethnicity)]$V1
+		tmp.dt$tmp_first <- tmp.dt[,first_names(gender, ethnicity, .N), by=list(gender, ethnicity)]$V1
 	}
 
 	if (which.names=="last" | which.names=="both") {
-		tmp.dt$tmp_last <- tmp.dt[,last_names(ethnicity[1], length(ethnicity)), by=list(ethnicity)]$V1
+		tmp.dt$tmp_last <- tmp.dt[,last_names(ethnicity, .N), by=list(ethnicity)]$V1
 	}
 
 	key(tmp.dt) <- "V1"
