@@ -1,8 +1,9 @@
 Package: randomNames
-Version: 0.0-5
-Date: 2012-1-28
+Version: 0.0-6
+Date: 2013-1-18
 Title: Random name generating function and data set
-Depends: R (>= 2.10.0), data.table (>= 1.7.8)
+Depends: R (>= 2.10.0)
+Imports: data.table (>= 1.8.0)
 Author: Damian W. Betebenner <dbetebenner@nciea.org>
 Maintainer: Damian W. Betebenner <dbetebenner@nciea.org>
 Description: Function to generate random gender and ethnicity correct
@@ -11,7 +12,8 @@ Description: Function to generate random gender and ethnicity correct
         of real names.
 LazyLoad: Yes
 LazyData: Yes
+ByteCompile: TRUE
 License: GPL-3
-Packaged: 2012-01-28 11:22:35 UTC; damian
+Packaged: 2013-01-18 21:51:09 UTC; damian
 Repository: CRAN
-Date/Publication: 2012-01-28 17:05:57
+Date/Publication: 2013-01-21 12:29:43
