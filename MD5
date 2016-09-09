@@ -1,11 +1,11 @@
-2f1fe4a7812b754f50e78556171ea2c9 *DESCRIPTION
+483dba00d83d735f5a0cb2e310191935 *DESCRIPTION
 27ad8d4b9957a5592107f4b00143c1eb *NAMESPACE
-66ddbc47a0f1bc2b37685246f3751551 *R/randomNames.R
+7b1b86350cfbdf2fe74df809aae5083f *R/randomNames.R
 44be06818b2e2684db31836855aa5670 *R/zzz.R
 8c956897fea542e7578b8b627f5e3511 *data/datalist
 ed7150d0cbfdfb56b06d38e16558840a *data/randomNamesData.rda
-fb8e07e994d6399f32c4550ea345bfb2 *inst/CITATION
-81b30f3cae8cafccc1477fcaabc07c7f *inst/NEWS
-9e28ea246fb37758a467789372198f9f *man/randomNames-package.Rd
-43abbc3bd6f137ec0155b6b7ffb62bd7 *man/randomNames.Rd
+7f41450f0564e3bd06c1a532e9ce9344 *inst/CITATION
+d9f6a476a5b8df8c4ee9e8fc5949b599 *inst/NEWS
+2e96b0b657f0449eb328569b78bf328f *man/randomNames-package.Rd
+992eda34a3233ce608255de60dda4bed *man/randomNames.Rd
 2d77b9308c8593f51e4c2d5b642597dd *man/randomNamesData.Rd
