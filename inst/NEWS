@@ -1,40 +1,53 @@
-Changes in version: randomNames_0.4-0
+## randomNames 1.0-0.0
 
-  o Added Middle-Eastern names (ethnicity=6) to data base.
+* Changed numbering of releases from 3 to 4 digits.
+* Created real vignette and fixed everything up for a nice 1.0-0.0 release.
 
-Changes in version: randomNames_0.3-0
+## randomNames 0.6-0
 
-  o Fixed bug leading to incorrect re-ordering of results so that they didn't match input
+* Converted NEWS to NEWS.md and added that to repo.
 
-Changes in version: randomNames_0.2-0
+## randomNames 0.5-0
 
-  o Cleaned up documentation
-  o Fixed GitHub pull requests
+* Adding vignette and building website.
 
-Changes in version: randomNames_0.0-7
+## randomNames 0.4-0
 
-  o Changed randomNamesData to environment
+* Added Middle-Eastern names (ethnicity=6) to data base.
 
-Changes in version: randomNames_0.0-6
+## randomNames 0.3-0
 
-  o Changed DESCRIPTION to Import data.table
+* Fixed bug leading to incorrect re-ordering of results so that they didn't match input.
 
-Changes in version: randomNames_0.0-5
+## randomNames 0.2-0
 
-  o Fixed key to accomodate changes in data.table 1.7.8.
+* Cleaned up documentation.
+* Fixed GitHub pull requests.
 
-Changes in version: randomNames_0.0-4
+## randomNames 0.0-7
 
-  o Added NAMESPACE.
+* Changed randomNamesData to environment.
 
-Changes in version: randomNames_0.0-3
+## randomNames 0.0-6
 
-  o Modified function to adapt to improvements in data.table.
+* Changed DESCRIPTION to Import data.table.
 
-Changes in version: randomNames_0.0-2
+## randomNames 0.0-5
 
-  o Refined function to recode supplied gender and ethnicity argument/variables if not in function appropriate form.
+* Fixed key to accomodate changes in data.table 1.7.8.
 
-Changes in version: randomNames_0.0-1
+## randomNames 0.0-4
 
-  o Package Released.
+* Added NAMESPACE.
+
+## randomNames 0.0-3
+
+* Modified function to adapt to improvements in data.table.
+
+## randomNames 0.0-2
+
+* Refined function to recode supplied gender and ethnicity argument/variables if not in function appropriate form.
+
+## randomNames 0.0-1
+
+* Package Released.
